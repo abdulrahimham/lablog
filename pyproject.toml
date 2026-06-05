@@ -1,7 +1,24 @@
 [project]
 name = "lablog"
 version = "0.1.0"
-description = "Add your description here"
+description = "A CLI tool for tracking and analyzing personal lab results over time"
 readme = "README.md"
-requires-python = ">=3.9"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.0",
+]
+
+[project.scripts]
+lablog = "lablog.cli:app"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "mypy>=1.0",
+    "ruff>=0.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
