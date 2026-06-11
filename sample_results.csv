@@ -1,0 +1,11 @@
+name,value,unit,low,high
+Glucose,95,mg/dL,70,99
+Total Cholesterol,185,mg/dL,,200
+HDL Cholesterol,55,mg/dL,40,
+LDL Cholesterol,110,mg/dL,,130
+Hemoglobin,14.2,g/dL,12.0,17.5
+Hematocrit,42.1,%,36,50
+Sodium,139,mEq/L,136,145
+Potassium,4.1,mEq/L,3.5,5.0
+Creatinine,0.9,mg/dL,0.6,1.2
+TSH,2.1,mIU/L,0.4,4.0
