@@ -5,7 +5,7 @@ A command-line tool for tracking personal lab results over time. Import a CSV ex
 ## Installation
 
 ```bash
-uv add "git+https://github.com/<your-username>/lablog.git"
+uv add "git+https://github.com/abdulrahimham/lablog.git"
 ```
 
 ## Usage
